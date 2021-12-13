@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	margin: 20px;
+	font-family: "Playfair Display", serif;
+}
+
+h1 {
+	font-family: "Bakbak One", cursive;
+	text-transform: uppercase;
+}
+
+.container {
+	max-width: 900px;
+	margin: 20px auto;
+}
+
+.article-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.article {
+	padding: 1rem;
+	background: rgb(221, 219, 245);
+	width: 300px;
+	position: relative;
+}
